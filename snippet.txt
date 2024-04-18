@@ -1,0 +1,14 @@
+<model-viewer src="HOLO.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" environment-image="3.jpg" exposure="2" tone-mapping="neutral" auto-rotate camera-orbit="-434deg 87.7deg 10.56m" field-of-view="26.26deg">
+    <button class="Hotspot" slot="hotspot-2" data-position="3.6361985038009204m 3.299962937105982m -10.429802961038806m" data-normal="-0.9703240826455466m 2.485064724627486e-8m 0.24180813600472206m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Aluminum profile</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
